@@ -1,6 +1,6 @@
 package br.com.webmarmo.plugins
 
-import br.com.webmarmo.routes.getAllHeroes
+import br.com.webmarmo.routes.getAllHeroesAlternative
 import br.com.webmarmo.routes.root
 import br.com.webmarmo.routes.searchHeroes
 import io.ktor.application.*
@@ -11,7 +11,8 @@ fun Application.configureRouting() {
 
     routing {
         root()
-        getAllHeroes()
+        // getAllHeroes()
+        getAllHeroesAlternative()
         searchHeroes()
 
         static("/images") {

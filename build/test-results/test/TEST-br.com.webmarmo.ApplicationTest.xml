@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.webmarmo.ApplicationTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-01-24T13:25:52" hostname="TI-003" time="0.942">
+  <properties/>
+  <testcase name="access search heroes endpoint, query hero name, assert multiple heroes result" classname="br.com.webmarmo.ApplicationTest" time="0.888"/>
+  <testcase name="access all heroes endpoint, query invalid page number, assert error" classname="br.com.webmarmo.ApplicationTest" time="0.005"/>
+  <testcase name="access search heroes endpoint, query non existing hero, assert empty list as a result" classname="br.com.webmarmo.ApplicationTest" time="0.006"/>
+  <testcase name="access search heroes endpoint, query hero name, assert single hero result" classname="br.com.webmarmo.ApplicationTest" time="0.007"/>
+  <testcase name="access search heroes endpoint, query an empty text, assert empty list as a result" classname="br.com.webmarmo.ApplicationTest" time="0.004"/>
+  <testcase name="access all heroes endpoint, query all pages, assert correct information" classname="br.com.webmarmo.ApplicationTest" time="0.015"/>
+  <testcase name="access non existing endpoint,assert not found" classname="br.com.webmarmo.ApplicationTest" time="0.008"/>
+  <testcase name="access root endpoint, assert correct information" classname="br.com.webmarmo.ApplicationTest" time="0.004"/>
+  <testcase name="access all heroes endpoint, query non existing page number, assert error" classname="br.com.webmarmo.ApplicationTest" time="0.004"/>
+  <system-out><![CDATA[2022-01-24 10:25:52.965 [Test worker] INFO  ktor.test - Autoreload is disabled because the development mode is off.
+2022-01-24 10:25:52.975 [Test worker] INFO  ktor.test - Application started in 0.085 seconds.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
